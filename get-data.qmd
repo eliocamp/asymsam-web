@@ -1,5 +1,6 @@
 ---
 title: "Data"
+description: Get Asymmetric SAM and Symmetric SAM indices in daily, monthly or seasonal timesteps
 visual: false
 ---
 

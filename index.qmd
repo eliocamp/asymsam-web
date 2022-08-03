@@ -1,7 +1,7 @@
 ---
 title: "Asymsam"
 description: |
-  The Asymmetric and Symmetric SAM indices
+  The Asymmetric and Symmetric SAM indices.
 execute:
   echo: false  
 crossref:
@@ -37,15 +37,16 @@ For more details, see @campitelli2022 and [the companion blog post](https://elio
 
 You can grab the monthly indices for the 1979 -- 2018 period as used in @campitelli2022 in [csvy](https://csvy.org/) format [here](data/indices.csv).
 
-Real-time indices can be accessed via [this form](get-data.qmd). 
+Real-time indices can be accessed via [this form](get-data.qmd).
 
 # How to cite
 
 If you use this data on your research, please cite it with
 
-
-> Campitelli, Elio, Leandro B. Díaz, and Carolina Vera. 2022. “Assessment of Zonally Symmetric and Asymmetric Components of the Southern Annular Mode Using a Novel Approach.” Climate Dynamics 58 (1): 161–78. https://doi.org/10.1007/s00382-021-05896-5.
-
+> Campitelli, Elio, Leandro B. Díaz, and Carolina Vera.
+> 2022.
+> "Assessment of Zonally Symmetric and Asymmetric Components of the Southern Annular Mode Using a Novel Approach." Climate Dynamics 58 (1): 161--78.
+> https://doi.org/10.1007/s00382-021-05896-5.
 
 Bibtex entry:
 

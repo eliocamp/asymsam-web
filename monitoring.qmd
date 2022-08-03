@@ -10,10 +10,8 @@ toc: false
 
 # Daily timeseries
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## Latest 12 months
-
 
 ![](images/plots/latest12.png){group="timeseries"}
 
@@ -24,7 +22,6 @@ toc: false
 ## Latest 3 months
 
 ![](images/plots/latest3.png){group="timeseries"}
-
 :::
 
-A description of the methodology can be found in the [methodology section](methodology.qmd). 
+A description of the methodology can be found in the [methodology section](methodology.qmd).

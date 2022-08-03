@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Symmetric and Asymmetric SAM"
+  favicon: favicon.png
+  twitter-card: true
+  opengraph: true
   navbar:
     left:
       - href: index.qmd
