@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Symmetric and Asymmetric SAM"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: monitoring.qmd
+        text: Real-time indices
+      - href: get-data.qmd
+        text: Data
+      - href: methodology.qmd
+        text: Methodology
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

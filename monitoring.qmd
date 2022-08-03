@@ -1,0 +1,30 @@
+---
+title: "Monitoring"
+execute:
+  echo: false  
+filters:
+   - lightbox
+lightbox: auto
+toc: false
+---
+
+# Daily timeseries
+
+::: {.panel-tabset}
+
+## Latest 12 months
+
+
+![](images/plots/latest12.png){group="timeseries"}
+
+## Latest 6 months
+
+![](images/plots/latest6.png){group="timeseries"}
+
+## Latest 3 months
+
+![](images/plots/latest3.png){group="timeseries"}
+
+:::
+
+A description of the methodology can be found in the [methodology section](methodology.qmd). 
