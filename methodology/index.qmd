@@ -1,6 +1,6 @@
 ---
 title: "Methodology"
-bibliography: asymsam.bib
+bibliography: ../asymsam.bib
 ---
 
 # Computation of the SAM patterns {#patterns}

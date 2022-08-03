@@ -35,9 +35,9 @@ For more details, see @campitelli2022 and [the companion blog post](https://elio
 
 # Get the data
 
-You can grab the monthly indices for the 1979 -- 2018 period as used in @campitelli2022 in [csvy](https://csvy.org/) format [here](data/indices.csv).
+You can grab the monthly indices for the 1979 -- 2018 period as used in @campitelli2022 in [csvy](https://csvy.org/) format [here](/data/indices.csv).
 
-Real-time indices can be accessed via [this form](get-data.qmd).
+Real-time indices can be accessed via [this form](/get-data).
 
 # How to cite
 

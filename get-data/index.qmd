@@ -43,4 +43,4 @@ visual: false
 
 </form>
 
-A description of the methodology can be found in the [methodology section](methodology.qmd).
+A description of the methodology can be found in the [methodology section](/methodology).

@@ -11,11 +11,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: monitoring.qmd
+      - href: monitoring
         text: Real-time indices
-      - href: get-data.qmd
+      - href: get-data
         text: Data
-      - href: methodology.qmd
+      - href: methodology
         text: Methodology
 
 format:
