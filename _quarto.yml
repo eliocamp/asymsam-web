@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Symmetric and Asymmetric SAM"
+  search: false
+  repo-url: https://github.com/eliocamp/asymsam-web
   favicon: favicon.png
   twitter-card: true
   opengraph: true
@@ -17,6 +19,9 @@ website:
         text: Data
       - href: methodology
         text: Methodology
+    right:
+      - href: https://github.com/eliocamp/asymsam-web
+        text: "{{< fa brands github size=xl title='GitHub Repository' >}}"
 
 format:
   html:

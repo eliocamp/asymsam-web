@@ -36,4 +36,4 @@ We used geopotential height at 2.5◦ longitude by 2.5◦ latitude of horizontal
 
 # Code:
 
-The code used to compute the indices is hosted on this repository.
+The code used to compute the indices is hosted on [this repository](https://github.com/eliocamp/asymsam-scripts).
