@@ -4,6 +4,7 @@ description: Get Asymmetric SAM and Symmetric SAM indices in daily, monthly or s
 visual: false
 ---
 
+If you use these data in your research, remember [to cite our work :)](/#how-to-cite). 
 
 <form>
 
