@@ -17,9 +17,6 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: sandstone
     toc: true
-
-editor: visual
-
