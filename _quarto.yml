@@ -4,22 +4,27 @@ project:
 
 website:
   title: "Symmetric and Asymmetric SAM"
+  search: false
+  repo-url: https://github.com/eliocamp/asymsam-web
+  favicon: favicon.png
+  twitter-card: true
+  opengraph: true
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: monitoring.qmd
+      - href: monitoring
         text: Real-time indices
-      - href: get-data.qmd
+      - href: get-data
         text: Data
-      - href: methodology.qmd
+      - href: methodology
         text: Methodology
+    right:
+      - href: https://github.com/eliocamp/asymsam-web
+        text: "{{< fa brands github size=xl title='GitHub Repository' >}}"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: sandstone
     toc: true
-
-editor: visual
-

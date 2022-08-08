@@ -1,0 +1,28 @@
+---
+title: "Monitoring"
+execute:
+  echo: false  
+filters:
+   - lightbox
+lightbox: auto
+toc: false
+aliases: [../monitoreo]
+---
+
+# Daily timeseries
+
+::: panel-tabset
+## Latest 12 months
+
+![](/images/plots/latest12.png){group="timeseries" fig-alt="Timeseries of the SAM, S-SAM and A-SAM indices for the last 12 months for the 50 and 700 hPa level."}
+
+## Latest 6 months
+
+![](/images/plots/latest6.png){group="timeseries" fig-alt="Timeseries of the SAM, S-SAM and A-SAM indices for the last 6 months for the 50 and 700 hPa level."}
+
+## Latest 3 months
+
+![](/images/plots/latest3.png){group="timeseries" fig-alt="Timeseries of the SAM, S-SAM and A-SAM indices for the last 3 months for the 50 and 700 hPa level."}
+:::
+
+A description of the methodology can be found in the [methodology section](/methodology).

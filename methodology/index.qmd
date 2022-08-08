@@ -1,0 +1,39 @@
+---
+title: "Methodology"
+bibliography: ../asymsam.bib
+---
+
+# Computation of the SAM patterns {#patterns}
+
+SAM patterns are defined as the leading EOF of the monthly geopotential height anomalies south of 20ºS.
+For compatibility with [the CPC AAO index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/aao/aao.shtml), this is done using the 1979--2000 period.
+This differs from the patterns used in @campitelli2022, which used the 1979--2018 period.
+
+This leading pattern is then divided into a zonally symmetric and a zonally asymmetric component, which define the S-SAM and A-SAM patterns, respectively.
+
+# Daily climatology
+
+To compute daily indices, we need a daily climatology from which to compute the daily geopotential anomalies.
+For each location, this was done by computing the mean geopotential height for each day of the year (including February 29th) and then smoothing the resulting annual cycle by extracting the Fourier components up to wavenumber 4.
+The number was chosen semi-arbitrarily based on looking at selected points and testing what looked smooth but not overfitted.
+
+This was done using the 1979--2000 period, as before.
+
+# Projection and normalization
+
+For each daily geopotential field, we then compute the anomaly by substracting the smoothed annual cycle.
+These anomalies are then regressed into the SAM, S-SAM and A-SAM patterns [computed before](#patterns).
+
+Using the climatological period, we compute the standard deviation of the SAM index and then the coefficients of the regression SAM \~ S-SAM + A-SAM.
+
+These values are used as normalisation constants.
+The SAM index is divided by the standard deviation and the S-SAM and A-SAM indices are multiplied by the regression coefficients.
+This ensures that the SAM index has unit standard deviation and that SAM = S-SAM + A-SAM.
+
+# Data source
+
+We used geopotential height at 2.5◦ longitude by 2.5◦ latitude of horizontal resolution from ERA5 (@hersbach2020).
+
+# Code:
+
+The code used to compute the indices is hosted on [this repository](https://github.com/eliocamp/asymsam-scripts).
