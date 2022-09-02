@@ -16,13 +16,27 @@ aliases: [../monitoreo]
 
 ![](/images/plots/latest12.png){group="timeseries" fig-alt="Timeseries of the SAM, S-SAM and A-SAM indices for the last 12 months for the 50 and 700 hPa level."}
 
+
+![](/images/plots/latest12-vertical.png){group="cross-section" fig-alt="Vertical cross-section of the SAM, S-SAM and A-SAM indices for the last 12 months."}
+
+
 ## Latest 6 months
 
 ![](/images/plots/latest6.png){group="timeseries" fig-alt="Timeseries of the SAM, S-SAM and A-SAM indices for the last 6 months for the 50 and 700 hPa level."}
 
+
+![](/images/plots/latest6-vertical.png){group="cross-section" fig-alt="Vertical cross-section of the SAM, S-SAM and A-SAM indices for the last 6 months."}
+
+
 ## Latest 3 months
 
 ![](/images/plots/latest3.png){group="timeseries" fig-alt="Timeseries of the SAM, S-SAM and A-SAM indices for the last 3 months for the 50 and 700 hPa level."}
+
+
+![](/images/plots/latest3-vertical.png){group="cross-section" fig-alt="Vertical cross-section of the SAM, S-SAM and A-SAM indices for the last 3 months."}
+
+
+
 :::
 
 A description of the methodology can be found in the [methodology section](/methodology).
