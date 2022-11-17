@@ -6,9 +6,9 @@ visual: false
 
 If you use these data in your research, remember [to cite our work :)](/#how-to-cite). 
 
-Daily time series (one file for each level): [list](/~elio.campitelli/asymsam/data/sam_level/)
+Daily time series (one file for each level): [list](/data/sam_level/)
 
-Monthly time series: [csv](/~elio.campitelli/asymsam/data/sam_monthly.csv)
+Monthly time series: [csv](/data/sam_monthly.csv)
 
 
 A description of the methodology can be found in the [methodology section](/methodology).
