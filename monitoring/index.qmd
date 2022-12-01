@@ -20,7 +20,7 @@ date <- as.character(Sys.Date(), format = "%Y%m%d")
 ## Latest 3 months
 
 
-![](/images/plots/latest3.png?222){group="timeseries" fig-alt="Timeseries of the SAM, S-SAM and A-SAM indices for the last 3 months for the 50 and 700 hPa level."}
+![](/images/plots/latest3.png?`r date`){group="timeseries" fig-alt="Timeseries of the SAM, S-SAM and A-SAM indices for the last 3 months for the 50 and 700 hPa level."}
 
 
 ![](/images/plots/latest3-vertical.png?`r date`){group="cross-section" fig-alt="Vertical cross-section of the SAM, S-SAM and A-SAM indices for the last 3 months."}
