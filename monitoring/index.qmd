@@ -10,7 +10,7 @@ aliases: [../monitoreo]
 ---
 
 ```{r}
-date <- as.character(Sys.Date(), format = "%Y%m%d")
+date <- as.character(Sys.time(), format = "%Y%m%d", tz = "UTC")
 ```
 
 # Daily timeseries
